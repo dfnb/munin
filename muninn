@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("init", help="find else create a database of notes")
+args = parser.parse_args()
+print(args.echo)
